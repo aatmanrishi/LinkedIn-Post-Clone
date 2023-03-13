@@ -21,6 +21,9 @@ padding: 10px;
 margin-top: 2rem;
 
 }
+.card:last-child{
+    margin-bottom: 3rem;
+}
 .card .top{
     display: flex;
     justify-content: space-between;
@@ -233,3 +236,4 @@ justify-items: flex-start;
     font-size: 0.5rem;
     margin-top: 0.2rem;
 }
+  
