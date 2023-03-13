@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eeee;
+
+}
+.card{
+position: relative;
+width: 360px;
+background-color: #ffff;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5),-5px -5px 10px rgba(0,0,0,0.3);
+padding: 10px;
+margin-top: 2rem;
+
+}
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .top .userDetails{
+    display: flex;
+    align-items: center;
+}
+.card .top .userDetails .profileImg img{
+position: relative;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 8px;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.card .userDetails h3{
+    font-size: 1rem;
+    color: #363636;
+    font-weight: 800;
+    line-height: 1rem;
+    cursor: pointer;
+}
+
+.top .globeDot{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 0px;
+    align-items: center;
+}
+.globeDot svg{
+    color:black;
+    font-size: 0.8rem;
+}
+
+
+.dot{
+    transform: scale(0.4);
+    cursor: pointer;
+    
+}
+.dot svg{
+    font-size: 3rem;
+}
+.upload-time, .movie-title {
+    font-size: 0.8rem;
+    color: #7f7f7f;
+
+}
+.userDetails svg{
+    color: #7f7f7f;
+}
+.imgBg{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 10px 0 15px;
+}
+.imgBg img{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    border-radius: 10px;
+    margin-right: -8px;
+}
+.message{
+    font-weight: 700;
+    margin-top: 5px;
+    color: rgba(10, 10, 10, 0.459);
+    line-height: 1.5em;
+
+}
+/* 
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btns  img{
+    margin-top: 30px;
+    max-width: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.likes{
+    font-weight: 500;
+    margin-top: -19px;
+    margin-left: 95px;
+    font-size: 1em;
+    color: #363636;
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right{
+    margin-top: 35px;
+    color: #363636;
+    background-color: red;
+    width: ;
+}
+
+.left h6{
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-top: 3px ;
+     
+}
+.border{
+    position: relative;
+    width: 100%;
+    height: 0.5px;
+    background: #0000;
+    margin-top: 15px;
+
+}
+
+ul{
+    position: relative;
+    width: calc(100% - 340px);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul li {
+    position: relative;
+    list-style-type: none;
+    padding: 50px;
+    width: calc(100% - 50px);
+    height: 50px;
+
+}
+
+ul li svg{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    margin-left: -80px;
+    cursor: pointer;
+} */
+
+.btns{
+    position: relative;
+    top: 20px;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;   
+}
+.like{
+    color: skyblue;
+}
+.support{
+    color: yellow;
+}
+.left h6{
+    color: #363636;
+}
+.right{
+    font-size: 0.8rem;
+}
+.border-line{
+    height: 0.10rem ;
+    background-color:rgba(0,0,0,0.5);
+    margin-top: 5px;
+    width: 100%;
+}
+.bottom-container ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   padding-top: 0.5rem;
+}
+.bottom-container ul li {
+list-style: none;
+font-size: 1.3rem;
+display: flex;
+flex-direction: column;
+justify-items: flex-start;
+
+}
+.bottom-container ul li span {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+}
